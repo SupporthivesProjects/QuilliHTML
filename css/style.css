@@ -1,0 +1,447 @@
+.nav-link{
+    color: var(--brand-ink, #1F1B18);
+    font-family: "Host Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+.nav-link{
+    display: flex;
+    padding: 16px 24px !important;
+    align-items: flex-start;
+}
+.nav-link.dropdown-toggle{
+    color: var(--brand-ink, #1F1B18);
+    font-family: "Host Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 24px */
+}
+.btn-login span{
+    color: var(--brand-ink, #1F1B18);
+    font-family: "Host Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 24px */
+}
+.btn-login{
+   padding: 16px 24px;
+}
+.scrolled{
+    background: var(--brand-white, #FFF);
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        padding: 24px 0px;
+    }
+}
+.logo-mo-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d-right-mo{
+    display: flex !important;
+    align-items: center;
+    gap: 8px;
+}
+.cart-mo-top-btn img{
+    display: none;
+}
+.dropdown-toggle::after {
+    border: 0px;
+    background: url(../img/vector.svg) no-repeat;
+    width: 10px;
+    height: 6px;
+    margin: auto;
+    margin-left: 8px;
+    background-size: cover;
+    background-position: center center;
+}
+/* --------------------------footer----------------------- */
+.tc-content-top h6{
+    color: var(--brand-red, #FF1F0E);
+    font-family: "Host Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+.tc-content-top h1{
+    color: var(--brand-ink, #1F1B18);
+    font-family: Anton;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+.tc-content-top p{
+    color: var(--brand-muted, #5A564D);
+    font-family: "Host Grotesk";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%; /* 31px */
+    margin-bottom: 0px;
+}
+.tc-content-submain{
+    padding: 64px 0px 16px;
+}
+.tc-content-top {
+    border-top: 1px solid #1F1B18;
+}
+
+.tc-content-submain h4{
+    color: var(--brand-ink, #1F1B18);
+    font-family: Anton;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+.tc-content-submain p{
+    color: var(--brand-muted, #5A564D);
+    font-family: "Host Grotesk";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%; /* 31px */
+    margin-bottom: 48px;
+}
+
+.tc-section{
+    padding: 0px 0px;
+    padding-top: 64px;
+    margin-top: 120px;
+}
+.tc-content-top{
+    padding-top: 48px;
+}
+.footer-link-menu h6{
+    color: var(--brand-muted, #5A564D);
+    font-family: "Host Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 18px */
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+.footer-link-menu li a{
+    color: var(--brand-ink, #1F1B18);
+    font-family: "Host Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%; /* 24.8px */
+    text-decoration: none;
+}
+.footer-link ul{
+    padding-left: 0px;
+    margin-bottom: 0px;
+    list-style: none;
+    width: 100%;
+}
+.footer-link-menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 64px;
+}
+.footer-p{
+    margin-top: 16px;
+}
+.footer-p p {
+    color: var(--brand-ink, #1F1B18);
+    font-family: "Host Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+.footer--p-p p{
+    color: var(--brand-ink, #1F1B18);
+    font-family: "Host Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%; /* 24.8px */
+}
+.footer--p-p:last-child p{
+    margin-bottom: 0px;
+}
+.footer-row-two p {
+    color: var(--brand-muted, #5A564D);
+    font-family: "Host Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%; /* 24.8px */
+    margin-bottom: 0px;
+}
+.footer-row-two{
+    border-top: 1px solid #1F1B18;
+    margin: 0px;
+    margin-top: 48px;
+    padding-top: 48px;
+    align-items: center;
+ }
+ .master-card{
+    max-width: 100%;
+    display: flex;
+    /* width: 144px; */
+    align-items: center;
+    gap: 24px;
+    float: right;
+}
+footer{
+    padding: 64px 0px;
+}
+.footer-row-one {
+    border-top: 1px solid #1F1B18;
+    padding-top: 48px;
+}
+
+@media screen and (min-width: 650px) and (max-width: 800px) {
+    .logo-mo-div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 16px 24px;
+    }
+    .cart-mo-top-btn img {
+        display: block;
+    }
+    .cart-mo-top-btn{
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+    .navbar-toggler{
+        padding: 0px 0px;
+        border: 0px;
+    }
+    .navbar-toggler-icon {
+        width:24px;
+        height: 24px;
+        background: url(../img/menu.svg) no-repeat;
+    }
+    .is-active .navbar-toggler-icon {
+        width:24px;
+        height: 24px;
+        background: url(../img/close.svg) no-repeat;
+    }
+    .nav-link{
+        color: var(--brand-ink, #1F1B18);
+        font-family: Anton;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%; /* 40.8px */
+        letter-spacing: 0.4px;
+    }
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        padding: 24px 24px;
+        width: 100%;
+        height: 600px;
+        overflow: overlay;
+    }
+    .navbar-brand img{
+        width: 103px;
+        height: 38px;
+    }
+    .nav-link  span{
+        color: var(--brand-red, #FF1F0E);
+        font-family: "Host Grotesk";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 18px */
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+    }
+    .nav-link {
+        display: flex;
+        padding: 20px 0px !important;
+        align-items: flex-start;
+        align-items: center;
+        gap: 16px;
+        border-bottom: 1px solid var(--brand-hairline, #D9D3C4);
+
+    }
+    .nav-link.dropdown-toggle {
+        color: var(--brand-ink, #1F1B18);
+        font-family: "Host Grotesk";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        border: 0px;
+        gap: 8px;
+    }
+    .navbar{
+        padding: 0px 0px;
+    }
+    .header-top{
+        background: var(--brand-bone, #FCFAF3);
+    }
+    .btn-start span{
+        display: flex;
+        padding: 16px 32px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        align-self: stretch;
+        border-radius: var(--radius-full, 999px);
+        background: var(--brand-ink, #1F1B18);
+        color: var(--brand-bone, #FCFAF3);
+        font-family: "Host Grotesk";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 24px */
+    }
+    .btn-start{
+        width: 100%;
+        padding: 0px;
+    }
+    .d-right-mo {
+        display: flex !important;
+        align-items: center;
+        gap: 8px;
+        flex-direction: column;
+        margin-top: 38px;
+    }
+    .btn-login {
+        padding: 16px 24px;
+        border-radius: var(--radius-full, 999px);
+        border: 1px solid var(--brand-ink, #1F1B18);
+        background: var(--brand-bone, #FCFAF3);
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    .navbar-brand {
+        padding-top: var(--bs-navbar-brand-padding-y);
+        padding-bottom: var(--bs-navbar-brand-padding-y);
+        margin-right: var(--bs-navbar-brand-margin-end);
+        font-size: var(--bs-navbar-brand-font-size);
+        color: var(--bs-navbar-brand-color);
+        text-decoration: none;
+        white-space: nowrap;
+        padding: 0px;
+    }
+    footer {
+        padding: 64px 0px;
+        display: flex;
+        padding: 40px 24px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        align-self: stretch;
+    }
+    .footer-logo img{
+        width: 179px;
+        height: 67px;
+    }
+    .footer--p-p{
+        margin-top: 8px;
+    }
+    .footer-link-menu {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        gap: 24px;
+        flex-direction: column;
+        margin-top: 24px;
+    }
+    .footer-row-two {
+        border-top: 1px solid #1F1B18;
+        margin: 0px;
+        margin-top: 24px;
+        padding-top: 24px;
+        align-items: center;
+    }
+    .master-card {
+        max-width: 100%;
+        display: flex;
+        /* width: 144px; */
+        align-items: center;
+        gap: 24px;
+        float: none;
+        margin-top: 16px;
+    }
+    .footer-row-two .col-12{
+        padding: 0px 0px;
+    }
+    .footer-row-one {
+        border-top: 1px solid #1F1B18;
+        padding-top: 32px;
+    }
+    .tc-content-top {
+        padding-top: 32px;
+    }
+    .tc-section {
+        padding: 0px 0px;
+        padding-top: 40px;
+        margin-top: 70px;
+    }
+    .tc-content-submain {
+        padding: 40px 0px 16px;
+    }
+    .tc-content-submain h4 {
+        color: var(--brand-ink, #1F1B18);
+        font-family: Anton;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        margin-bottom: 16px;
+    }
+    .tc-content-main{
+        padding: 0px 24px;
+    }
+    .tc-content-top h1 {
+        color: var(--brand-ink, #1F1B18);
+        font-family: Anton;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        margin-bottom: 16px;
+    }
+
+    .footer-row-one{
+        margin: 0px;
+    }
+    .footer-row-one .col-12{
+        padding: 0px 0px;
+    }
+}
+@media screen and (min-width: 1080px) and (max-width: 1200px) {
+}
