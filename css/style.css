@@ -11,6 +11,9 @@
     padding: 16px 24px !important;
     align-items: flex-start;
 }
+.nav-link span{
+    display: none;
+}
 .nav-link.dropdown-toggle{
     color: var(--brand-ink, #1F1B18);
     font-family: "Host Grotesk";
