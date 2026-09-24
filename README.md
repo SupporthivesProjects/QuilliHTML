@@ -1,3 +1,25 @@
-# QuilliHTML
-https://www.figma.com/design/9LeHMu5r8OHHnp0aRkbzqB/AD558---Reskin-Content-Writing---Quillli.com?node-id=12148-2&t=edjR36oxy0PhJhl1-1
+# Quillli
 
+TimeLine<br>
+Start Date : 25/09/2026<br>
+End Date : 28/09/2026 (EOD) <br>
+
+# Developer Team
+Developer Team:Vijay,Rahul,Dhiraj,Saakshi-C,Saakshi-K,Tirthak,Diksha,Medhansh<br>
+Project Report : Jeet <br>
+Team Lead : Vijay <br>
+Co-Team Lead : Rahul<br>
+
+# QA Team
+QA - Parth/Shailesh<br>
+
+# Task
+
+
+
+# Figma
+figma copy-version:- https://www.figma.com/design/29uL5w0SAi0nEVJf2flEM7/AD558---Reskin-Content-Writing---Quillli.com--Copy-?node-id=3357-851&p=f&m=dev
+
+live figma :- https://www.figma.com/design/9LeHMu5r8OHHnp0aRkbzqB/AD558---Reskin-Content-Writing---Quillli.com?node-id=12196-151&m=dev  <br>
+
+prototype figma:- https://www.figma.com/proto/9LeHMu5r8OHHnp0aRkbzqB/AD558---Reskin-Content-Writing---Quillli.com?node-id=12193-167&m=dev&scaling=min-zoom&content-scaling=fixed&page-id=3357%3A851
