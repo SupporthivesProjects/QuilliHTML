@@ -16,9 +16,9 @@ QA - Parth/Shailesh<br>
 # Task
 
 Vijay :header,footer,tc,pc,404 page, include pop <br>
-Rahul: Dashboard All,include pop <br>
+Saakshi C: Dashboard All,Email Template, include pop <br>
 Dhiraj:aboutus, home,include pop <br>
-Saakshi c:services individual (services 4 pages) pop Email Template,include pop <br>
+Rahul:services individual (services 4 pages),include pop <br>
 Saakshi k: contact us,configure + brief, congfigur,detailed form,congfigur,simple form,include pop <br>
 Tirthak:process,join,services,include pop <br>
 medhanash : checkout,cart,checkout success/failed,include pop <br>
