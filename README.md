@@ -15,7 +15,14 @@ QA - Parth/Shailesh<br>
 
 # Task
 
-
+Vijay :header,footer,tc,pc,404 page, include pop <br>
+Rahul: Dashboard All,include pop <br>
+Dhiraj:aboutus, home,include pop <br>
+Saakshi c:services individual (services 4 pages) pop Email Template,include pop <br>
+Saakshi k: contact us,configure + brief, congfigur,detailed form,congfigur,simple form,include pop <br>
+Tirthak:process,join,services,include pop <br>
+medhanash : checkout,cart,checkout success/failed,include pop <br>
+Diksha:login,sign up, reset, forget, include pop <br>
 
 # Figma
 figma copy-version:- https://www.figma.com/design/29uL5w0SAi0nEVJf2flEM7/AD558---Reskin-Content-Writing---Quillli.com--Copy-?node-id=3357-851&p=f&m=dev
