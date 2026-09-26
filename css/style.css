@@ -67,6 +67,74 @@
     background-position: center center;
 }
 /* --------------------------footer----------------------- */
+.error-contanet h6{
+    color: var(--brand-red, #FF1F0E);
+    font-family: "Host Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.error-contanet h1{
+    color: var(--brand-ink, #1F1B18);
+    font-family: Anton;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 76.8px */
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+}
+.error-contanet p {
+    color: var(--brand-muted, #5A564D);
+    font-family: "Host Grotesk";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+    margin-bottom: 0px;
+}
+.error-contanet .btn{
+    border-radius: var(--radius-full, 999px);
+    background: var(--brand-ink, #1F1B18);
+    display: flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: var(--brand-bone, #FCFAF3);
+    font-family: "Host Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    width: 250px;
+    max-width: 100%;
+}
+.error-contanet{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.error-top{
+    padding: 104px 0px;
+    margin-top: 120px;
+}
+.error-top img{
+    height: 297px;
+    width: 327px;
+    object-fit: cover;
+}
+.error-top{
+    background: url(../img/404-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 .tc-content-top h6{
     color: var(--brand-red, #FF1F0E);
     font-family: "Host Grotesk";
