@@ -110,6 +110,10 @@
     <script src="uiframe/js/flickity.pkgd.min.js"></script>   
     <script src="uiframe/js/aos.js"></script>
     <script src="./uiframe/js/home-js.js"></script>
+    <script src="./uiframe/js/preloader.js"></script>
+    <script src="./uiframe/js/homeanimation.js"></script>
+
+
     <!-- Motion -->
     <script>
       $(document).ready(function () {

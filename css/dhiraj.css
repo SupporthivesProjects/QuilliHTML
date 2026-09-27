@@ -1,0 +1,734 @@
+/* HOME PAGE */
+
+.hl2{
+        top: 628px !important;
+}
+
+.hl1{
+        top: 736px !important;
+}
+
+
+#flight{
+    padding: 0px;
+}
+
+#services {
+     background:url(../img/second_bg.png) !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+#next{
+    min-height: 695px !important;
+}
+
+.last_sec{
+        background:url(../img/last_imagee.png) !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.proc-split {
+    display: flex;
+    gap: 80px;
+    align-items: flex-start;
+    flex-direction: row-reverse ;
+}
+
+.proc-intro  .h2{
+    margin-bottom: 0px !important;
+}
+
+
+/* ABOUT US */
+
+/* =========================================
+   ABOUT US SECTION
+========================================= */
+
+.about-us {
+    width: 100%;
+    background: #ffffff;
+    padding: 126px 0px 0px;
+}
+
+
+.about-us .container-fluid {
+    width: 100%;
+    padding: 0;
+}
+
+.about-us__design {
+    position: relative;
+    width: 100%;
+    min-height: 600px;
+}
+
+
+/* =========================================
+   IMAGE
+========================================= */
+
+.about-us__image {
+    position: relative;
+    width: 100%;
+    height: 780px;
+    overflow: hidden;
+}
+
+.about-us__image-element {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+/* =========================================
+   ABOUT CONTENT - DESKTOP
+========================================= */
+
+.about-us__content {
+    position: absolute;
+
+    width: 480px;
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+
+    box-sizing: border-box;
+
+    border-radius: var(--radius-s, 8px);
+    background: var(--brand-bone, #FCFAF3);
+
+    /*
+        Position according to Figma
+    */
+    top: 353px;
+    right: 240px;
+
+    transform: translateY(-50%);
+
+    z-index: 5;
+}
+
+
+/* =========================================
+   EYEBROW
+========================================= */
+
+.about-us__eyebrow {
+    display: block;
+
+    color: var(--brand-red, #FF1F0E);
+
+    font-family: "Host Grotesk", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+
+    margin: 0;
+}
+
+
+/* =========================================
+   TITLE
+========================================= */
+
+.about-us__title {
+    color: var(--brand-ink, #1F1B18);
+
+    font-family: Anton, sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+
+    margin: 0;
+}
+
+
+.about-us__description {
+    color: var(--brand-muted, #5A564D);
+
+    font-family: "Host Grotesk", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+
+    margin: 0;
+}
+
+/* =========================================
+   WHAT MATTERS
+========================================= */
+
+.what-matters {
+    width: 100%;
+    background: url(../img/about_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+    
+}
+
+.what-matters__design {
+    width: 100%;
+    padding: 104px 0px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+.what-matters__header {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+/* Eyebrow */
+
+.what-matters__eyebrow {
+    display: block;
+
+    color: var(--brand-bone, #FCFAF3);
+
+    font-family: "Host Grotesk", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+
+    margin: 0;
+}
+
+
+/* Title */
+
+.what-matters__title {
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+
+color: var(--brand-white, #FFF);
+font-family: "Anton";
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 76.8px */
+letter-spacing: 0.4px;
+text-transform: capitalize;
+}
+
+
+/* =========================================
+   CARDS
+========================================= */
+
+.what-matters__cards {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+justify-content: center;
+    gap: 24px;
+}
+
+
+/* =========================================
+   INDIVIDUAL CARD
+========================================= */
+
+.what-matters__card {
+    display: flex;
+
+    width: 100%;
+    max-width: 464px;
+
+    padding: 32px;
+
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    gap: 16px;
+
+    flex: 1 0 0;
+
+    box-sizing: border-box;
+
+    border-radius: var(--radius-s, 8px);
+
+    background:
+        url("../img/box_bg.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+}
+
+
+/* =========================================
+   YELLOW CARD
+========================================= */
+
+.what-matters__card--yellow {
+    background: var(--brand-yellow, #F5C518);
+}
+
+
+/* =========================================
+   CARD TITLE
+========================================= */
+
+.what-matters__card-title {
+    margin: 0;
+
+    color: var(--brand-ink, #1F1B18);
+
+    font-family: "Anton", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+
+    letter-spacing: 0.2px;
+}
+
+
+/* =========================================
+   CARD DESCRIPTION
+========================================= */
+
+.what-matters__card-description {
+    margin: 0;
+
+    color: var(--brand-muted, #5A564D);
+
+    font-family: "Host Grotesk", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+}
+
+
+
+/* =========================================
+   HOW WE WORK
+========================================= */
+
+.how-we-work {
+    width: 100%;
+background: var(--brand-white, #FFF);
+    padding: 104px 0px;
+}
+
+
+
+/* =========================================
+   HEADING
+========================================= */
+
+.how-we-work__heading {
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+.how-we-work__eyebrow {
+    display: block;
+
+    color: #FF1F0E;
+
+    font-family: "Host Grotesk", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+
+    margin-bottom: 16px;
+}
+
+.how-we-work__title {
+    margin: 0;
+
+color: var(--brand-ink, #1F1B18);
+font-family: "Anton";
+font-size: 56px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 67.2px */
+letter-spacing: 0.4px;
+text-transform: capitalize;
+}
+
+.how-we-work__intro {
+    margin: 16px 0 0;
+
+    color: #5A564D;
+
+    font-family: "Host Grotesk", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+}
+
+
+/* =========================================
+   STEPS
+========================================= */
+
+.how-we-work__steps {
+    position: relative;
+
+    display: flex;
+    align-items: flex-start;
+
+    width: 100%;
+    gap: 24px;
+}
+
+
+/*
+    THE HORIZONTAL LINE
+    -----------------------------------------
+    It sits behind the yellow circles.
+*/
+
+.how-we-work__line {
+    position: absolute;
+
+    top: 37px;
+    left: 0;
+    right: 0;
+
+    height: 1px;
+
+    background: #D9D3C4;
+
+    z-index: 0;
+}
+
+
+/* =========================================
+   INDIVIDUAL STEP
+========================================= */
+
+.how-we-work__step {
+    position: relative;
+    flex: 1 0 0;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 1;
+    gap: 32px;
+
+}
+
+
+/* Yellow circle */
+
+.how-we-work__number {
+    width: 72px;
+    height: 72px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    border-radius: 999px;
+
+    background: #F5C518;
+    color: #1F1B18;
+
+    font-family: "Anton", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+
+/* =========================================
+   CARD
+========================================= */
+
+.how-we-work__card {
+    width: 100%;
+display: flex;
+padding: 28px;
+flex-direction: column;
+align-items: flex-start;
+gap: 12px;
+flex: 1 0 0;
+    background:
+        url("../img/box_bg.png");
+        border-radius: var(--radius-s, 8px);
+border: 1px solid #BDBDBD;
+}
+
+.how-we-work__card h3 {
+    margin: 0 0;
+
+    color: #1F1B18;
+
+    font-family: "Anton", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.how-we-work__card p {
+    margin: 0;
+
+    color: #5A564D;
+
+    font-family: "Host Grotesk", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+}
+
+
+/* =========================================
+   CTA BUTTON
+========================================= */
+
+.how-we-work__button {
+    position: relative;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+
+    margin-top: 48px;
+
+    padding: 16px 32px;
+
+    border-radius: 999px;
+
+    background: #1F1B18;
+    color: #FCFAF3;
+
+    font-family: "Host Grotesk", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+
+    text-decoration: none;
+
+    overflow: hidden;
+    isolation: isolate;
+
+    cursor: pointer;
+
+    transition:
+        color .28s ease,
+        background-color .28s ease;
+}
+
+.how-we-work__button:hover {
+    background-color: #FF1F0E;
+    color: #1F1B18;
+}
+
+.how-we-work__button-arrow {
+    font-size: 16px;
+    line-height: 1;
+}
+
+
+/* =========================================
+   WORTH SAYING CTA
+========================================= */
+
+.worth-saying {
+    width: 100%;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.worth-saying__design {
+    position: relative;
+    width: 100%;
+    min-height: 600px;
+    overflow: hidden;
+}
+
+
+/* =========================================
+   BACKGROUND IMAGE
+========================================= */
+
+.worth-saying__image {
+    position: absolute;
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+
+/* =========================================
+   YELLOW CONTENT
+========================================= */
+
+.worth-saying__content {
+    position: absolute;
+
+    top: 124px;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    z-index: 2;
+}
+
+
+/* =========================================
+   EYEBROW
+========================================= */
+
+.worth-saying__eyebrow {
+    display: block;
+
+    margin-bottom: 0px;
+
+    color: #FF1F0E;
+
+    font-family: "Host Grotesk", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+
+/* =========================================
+   TITLE
+========================================= */
+
+.worth-saying__title {
+    margin: 0;
+
+color: #111;
+
+    font-family: "Anton", sans-serif;
+font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+
+    letter-spacing: 0.4px;
+}
+
+
+/* =========================================
+   DESCRIPTION
+========================================= */
+
+.worth-saying__description {
+    margin: 16px 0 20px;
+
+    color: #1F1B18;
+
+    font-family: "Host Grotesk", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+}
+
+
+/* =========================================
+   BUTTON
+========================================= */
+
+.worth-saying__button {
+    position: relative;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+
+padding: 16px 32px;
+
+    border: 0;
+    border-radius: 999px;
+
+    background: #1F1B18;
+    color: #FCFAF3;
+
+    font-family: "Host Grotesk", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+
+    text-decoration: none;
+
+    cursor: pointer;
+
+    transition:
+        background-color .28s ease,
+        color .28s ease;
+}
+
+.worth-saying__button:hover {
+    background-color: #FF1F0E;
+    color: #171717;
+}
+
+   
+
