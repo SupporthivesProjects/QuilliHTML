@@ -10,6 +10,9 @@
     <title>Quillli</title>
     <link rel="icon" type="image/png" sizes="16x16" href="./img/tg-icon.svg">
     <link rel="stylesheet" href="css/mainBase.css">
+    <link rel="stylesheet" href="css/homeanimation.css">
+        <link rel="stylesheet" href="css/homepreloader.css">
+
   </head>
   <body>
   
