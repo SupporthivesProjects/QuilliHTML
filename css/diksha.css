@@ -1,0 +1,1424 @@
+.login-page {
+	margin: 0px;
+}
+
+.login-page {
+	display: flex;
+width: 100%;
+padding: 104px 0;
+flex-direction: column;
+align-items: flex-start;
+gap: 48px;
+background: var(--brand-bone, #FCFAF3);
+}
+
+.login-page__inner {
+display: flex;
+height: 627px;
+width: 100%;
+padding-left: 0;
+padding-right: 0;
+align-items: center;
+gap: 40px;
+align-self: stretch;
+}
+
+.login-page__form-wrap {
+display: flex;
+width: 688px;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;
+
+}
+
+.login-form{
+	display: flex;
+width: 688px;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;
+}
+
+.login-page__intro{
+	display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+}
+
+.login-page__intro h1 {
+	margin: 0px;
+	width: 688px;
+	color: var(--brand-ink, #1F1B18);
+
+/* heading / h1 */
+font-family: Anton;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 76.8px */
+letter-spacing: 0.4px;
+text-transform: capitalize;
+}
+
+.login-page__intro p {
+	margin: 0px;
+	color: var(--brand-muted, #5A564D);
+
+/* body / large */
+font-family: "Host Grotesk";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 155%; /* 31px */
+}
+
+.login-form_g {
+	display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+}
+
+.login-form__field{
+	display: flex;
+width: 688px;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+}
+
+.login-form__field label {
+	color: var(--brand-ink, #1F1B18);
+
+/* body / small */
+font-family: "Host Grotesk";
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 18px */
+letter-spacing: 1.2px;
+text-transform: uppercase;
+}
+
+.login-form__field .lgn {
+	display: flex;
+padding: 16px;
+align-items: flex-start;
+gap: 8px;
+align-self: stretch;
+border-radius: var(--radius-s, 8px);
+border: 1px solid var(--brand-hairline, #D9D3C4);
+background: var(--brand-panel, #F0ECE0);
+color: var(--brand-muted, #5A564D);
+width: 100%;
+
+/* body / regular */
+font-family: "Host Grotesk";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 155%; /* 24.8px */
+}
+
+.login-form__field .lgn:autofill,
+.login-form__field .lgn:-webkit-autofill,
+.login-form__field .lgn:-webkit-autofill:hover,
+.login-form__field .lgn:-webkit-autofill:focus {
+	-webkit-box-shadow: 0 0 0 1000px var(--brand-panel, #F0ECE0) inset !important;
+	-webkit-text-fill-color: var(--brand-muted, #5A564D) !important;
+}
+
+/*.login-form__field input::placeholder {
+	color: #88837a;
+}
+
+.login-form__field input:focus {
+	border-color: #201d1b;
+	box-shadow: 0 0 0 2px rgba(32, 29, 27, 0.08);
+}
+*/
+
+.login-form__password {
+	position: relative;
+	width: 100%;
+}
+
+.login-form__password .lgn {
+	width: 100%;
+	box-sizing: border-box;
+	padding-right: 42px;
+}
+
+.login-form__password input::-ms-reveal,
+.login-form__password input::-ms-clear {
+	display: none;
+}
+
+.login-form__toggle {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	width: 24px;
+	height: 24px;
+	padding: 0;
+	transform: translateY(-50%);
+	border: 0;
+	background: transparent;
+	color: #625e56;
+	cursor: pointer;
+	font-size: 0.72rem;
+}
+
+.login-form__toggle img {
+	display: block;
+	width: 24px;
+	height: 24px;
+}
+
+
+.login-form__field label{
+	color: var(--brand-ink, #1F1B18);
+
+/* body / small */
+font-family: "Host Grotesk";
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 18px */
+letter-spacing: 1.2px;
+text-transform: uppercase;
+
+}
+
+.login-form__toggle-btn{
+	position: absolute;
+	top: 50%;
+	right: 12px;
+	display: grid;
+	place-items: center;
+	width: 24px;
+	height: 24px;
+	min-width: 0;
+	margin: 0;
+	padding: 0;
+	transform: translateY(-50%);
+	appearance: none;
+	border: 0;
+	background: transparent;
+	box-shadow: none;
+	cursor: pointer;
+}
+
+.login-form__password-reset{
+	position: relative;
+	width: 100%;
+}
+
+.login-form__password-reset input::-ms-reveal,
+.login-form__password-reset input::-ms-clear{
+	display: none;
+}
+
+.login-form__toggle-btn img{
+	display: block;
+	width: 24px;
+	height: 24px;
+}
+
+.login-form__toggle-btn:focus-visible{
+	outline: 2px solid var(--brand-ink, #1F1B18);
+	outline-offset: 2px;
+}
+
+
+.reset-pswd-para{
+	color: var(--brand-muted, #5A564D);
+
+/* body / regular */
+font-family: "Host Grotesk";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 155%; /* 24.8px */
+}
+.login-form__actions {
+	display: flex;
+align-items: center;
+gap: 24px;
+align-self: stretch;
+}
+
+.login-form__actions a{
+	display: flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+flex: 1 0 0;
+border-radius: var(--radius-full, 999px);
+border: 1px solid var(--brand-ink, #1F1B18);
+background: var(--brand-bone, #FCFAF3);
+color: var(--brand-ink, #1F1B18);
+
+/* button / regular */
+font-family: "Host Grotesk";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 24px */
+}
+
+.login-form__button {
+	display: flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+flex: 1 0 0;
+border-radius: var(--radius-full, 999px);
+background: var(--brand-ink, #1F1B18);
+color: var(--brand-bone, #FCFAF3);
+
+/* button / regular */
+font-family: "Host Grotesk";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 24px */
+}
+
+
+.login-form__forgot {
+	color: var(--brand-ink, #1F1B18);
+
+/* body / regular */
+font-family: "Host Grotesk";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 155%; /* 24.8px */
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: auto;
+text-decoration-thickness: auto;
+text-underline-offset: auto;
+text-underline-position: from-font;
+}
+
+
+.login-page__artwork img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.login-page__artwork {
+	flex: 1 1 auto;
+	min-width: 0;
+	height: 100%;
+}
+
+/*modal css*/
+
+.second-section{
+	width: 1920px;
+height: 1080px;
+opacity: 0.8;
+background: var(--brand-ink, #1F1B18) !important;
+}
+
+.reset-link-modal__content {
+	/*border: 0;
+	border-radius: 4px;
+	padding: 24px;
+	background: var(--brand-bone, #FCFAF3);
+	color: var(--brand-ink, #1F1B18);*/
+	display: flex;
+width: 640px;
+padding: 48px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+border-radius: var(--radius-s, 8px);
+background: var(--brand-white, #FFF);
+}
+
+.reset-link-modal__header,
+.reset-link-modal__footer {
+	padding: 0;
+	border: 0;
+}
+
+.reset-link-modal__header {
+	align-items: flex-start;
+}
+
+.reset-link-modal__header h2 {
+	color: var(--brand-ink, #1F1B18);
+
+/* heading / h3 */
+font-family: Anton;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 36.4px */
+letter-spacing: 0.4px;
+text-transform: capitalize;
+align-self: stretch;
+}
+
+.reset-link-modal__body {
+	padding: 0px;
+}
+
+.reset-link-modal__body p {
+	color: var(--brand-muted, #5A564D);
+
+/* body / large */
+font-family: "Host Grotesk";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 155%; /* 31px */
+align-self: stretch;
+margin: 0px;
+}
+
+.reset-link-modal__button {
+	display: flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: var(--radius-full, 999px);
+background: var(--brand-ink, #1F1B18);
+color: var(--brand-bone, #FCFAF3);
+
+/* button / regular */
+font-family: "Host Grotesk";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 24px */
+}
+
+.reset-page {
+	box-sizing: border-box;
+	display: flex;
+	width: 100%;
+	min-height: calc(100vh - 64px);
+	margin-top: 64px;
+	padding: 48px 0;
+	align-items: stretch;
+	background: var(--brand-bone, #FCFAF3);
+}
+
+.reset-page_inner {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 32px;
+}
+
+.reset-page_inner.container {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.reset-page__form-wrap {
+	display: flex;
+	flex: 1 1 0;
+	width: auto;
+	min-width: 0;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 16px;
+}
+
+.reset-page__intro {
+	display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+}
+
+.reset-page__intro h1 {
+	color: var(--brand-ink, #1F1B18);
+
+/* heading / h1 */
+font-family: Anton;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 76.8px */
+letter-spacing: 0.4px;
+text-transform: capitalize;
+margin: 0px;
+}
+
+.reset-page__intro p {
+	color: var(--brand-muted, #5A564D);
+
+/* body / large */
+font-family: "Host Grotesk";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 155%; /* 31px */
+margin: 0px;
+}
+
+.reset-form {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.reset-form_g {
+	display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+}
+
+.reset-form_g > .reset-form__field:nth-child(-n + 2) {
+	grid-column: 1 / -1;
+}
+
+.reset-form__field {
+	display: flex;
+width: 688px;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+}
+
+.reset-form__field label {
+	color: var(--brand-ink, #1F1B18);
+
+/* body / small */
+font-family: "Host Grotesk";
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 18px */
+letter-spacing: 1.2px;
+text-transform: uppercase;
+}
+
+.lgn-reset {
+	display: flex;
+padding: 16px;
+align-items: flex-start;
+gap: 8px;
+align-self: stretch;
+border-radius: var(--radius-s, 8px);
+border: 1px solid var(--brand-hairline, #D9D3C4);
+background: var(--brand-panel, #F0ECE0);
+color: var(--brand-muted, #5A564D);
+
+/* body / regular */
+font-family: "Host Grotesk";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 155%; /* 24.8px */
+width: 100%;
+}
+.reset-char{
+	display: none;
+}
+
+.reset-form__field-1{
+	display: flex;
+align-items: flex-start;
+gap: 24px;
+align-self: stretch;
+}
+
+.reset-form__field-1 label{
+	color: var(--brand-ink, #1F1B18);
+
+/* body / small */
+font-family: "Host Grotesk";
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 18px */
+letter-spacing: 1.2px;
+text-transform: uppercase;
+}
+.reset-form__password {
+	position: relative;
+	width: 100%;
+}
+
+.reset-btn {
+	display: flex;
+padding: 16px;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+border-radius: var(--radius-s, 8px);
+border: 1px solid var(--brand-hairline, #D9D3C4);
+background: var(--brand-panel, #F0ECE0);
+color: var(--brand-muted, #5A564D);
+
+/* body / regular */
+font-family: "Host Grotesk";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 155%; /* 24.8px */
+flex: 1 0 0;
+}
+
+.signup-template .reset-form__password .reset-btn {
+	box-sizing: border-box;
+	width: 100%;
+	min-width: 0;
+	padding-right: 40px;
+}
+
+ .login-form__toggle-btn {
+	right: 8px;
+	width: 20px;
+	height: 20px;
+}
+
+ .login-form__toggle-btn img {
+	width: 20px;
+	height: 20px;
+}
+
+ .t-btn {
+	display: flex;
+align-items: flex-start;
+gap: 32px;
+align-self: stretch;
+}
+
+.reset-form .col-md-create {
+	min-width: 0;
+}
+
+ .form-check {
+	display: flex;
+align-items: center;
+gap: 16px;
+flex: 1 0 0;
+}
+
+.reset-form .form-check-input {
+	width: 24px;
+height: 24px;
+border-radius: var(--radius-xs, 4px);
+border: 1px solid var(--brand-ink, #1F1B18);
+background: var(--brand-bone, #FCFAF3);
+}
+
+.reset-form .form-check label {
+	color: var(--brand-ink, #1F1B18);
+
+/* body / regular */
+font-family: "Host Grotesk";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 155%; /* 24.8px */
+}
+
+.captcha{
+	display: flex;
+width: 304px;
+padding: 16px;
+align-items: center;
+gap: 16px;
+border-radius: var(--radius-xs, 4px);
+border: 1px solid var(--brand-hairline, #D9D3C4);
+background: var(--base-white, #FFF);
+}
+
+.captcha input{
+	width: 24px;
+height: 24px;
+flex-shrink: 0;
+border: 1px solid var(--brand-muted, #5A564D);
+background: var(--brand-bone, #FCFAF3);
+}
+
+.captcha label{
+	color: var(--brand-ink, #1F1B18);
+
+/* body / regular */
+font-family: "Host Grotesk";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 155%; /* 24.8px */
+}
+
+.cap h3{
+	color: var(--brand-blue, #1E9BFF);
+
+/* body / regular */
+font-family: "Host Grotesk";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 155%; /* 24.8px */
+}
+
+.text-muted{
+	color: var(--brand-muted, #5A564D);
+
+/* body / small */
+font-family: "Host Grotesk";
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 18px */
+letter-spacing: 1.2px;
+text-transform: uppercase;
+}
+
+.reset-form__actions {
+	display: flex;
+align-items: center;
+gap: 16px;
+align-self: stretch;
+}
+.reset-form__actions a{
+	display: flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+flex: 1 0 0;
+border-radius: var(--radius-full, 999px);
+border: 1px solid var(--brand-ink, #1F1B18);
+background: var(--brand-bone, #FCFAF3);
+color: var(--brand-ink, #1F1B18);
+
+/* button / regular */
+font-family: "Host Grotesk";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 24px */
+}
+
+.reset-form__actions button{
+	display: flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+flex: 1 0 0;
+border-radius: var(--radius-full, 999px);
+background: var(--brand-ink, #1F1B18);
+color: var(--brand-bone, #FCFAF3);
+
+/* button / regular */
+font-family: "Host Grotesk";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 24px */
+}
+/*.reset-form__button {
+	box-sizing: border-box;
+	display: flex;
+	flex: 1 1 0;
+	min-width: 0;
+	min-height: 30px;
+	padding: 6px 8px;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid var(--brand-ink, #1F1B18);
+	border-radius: var(--radius-full, 999px);
+	font-family: "Host Grotesk";
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 150%;
+	text-align: center;
+	text-decoration: none;
+}
+
+.reset-form__button--secondary {
+	background: var(--brand-bone, #FCFAF3);
+	color: var(--brand-ink, #1F1B18);
+}
+
+.reset-form__button--primary {
+	background: var(--brand-ink, #1F1B18);
+	color: var(--brand-bone, #FCFAF3);
+}
+*/
+.reset-page__artwork {
+	display: flex;
+	flex: 1 1 0;
+	min-width: 0;
+	align-items: center;
+	justify-content: center;
+}
+
+.reset-page__artwork img {
+	display: block;
+	width: 100%;
+	max-width: 430px;
+	height: auto;
+	object-fit: contain;
+}
+
+.pass-row {
+	display: flex;
+	width: 100%;
+	gap: 24px;
+}
+
+.pass-row > div {
+	flex: 1;
+	min-width: 0;
+}
+
+/*modal css*/
+@media (max-width: 600px) {
+
+	.login-page {
+		margin-top: 70px;
+		box-sizing: border-box;
+		display: flex;
+padding: 0 24px 40px 24px;
+flex-direction: column;
+align-items: flex-start;
+align-self: stretch;
+	}
+
+	.login-page__inner {
+		display: flex;
+width: 100%;
+height: auto;
+flex-direction: column;
+align-items: flex-start;
+align-self: stretch;
+gap: 0px !important;
+	}
+
+	.login-page__form-wrap {
+		order: 1;
+		display: flex;
+width: 100%;
+flex-direction: column;
+align-items: flex-start;
+gap: 28px;
+align-self: stretch;
+	}
+
+	.login-page__artwork {
+		order: 0;
+		width: 100%;
+		height: auto;
+		max-width: none;
+	}
+
+	.login-page__artwork img {
+		width: 327px;
+height: 327px;
+	}
+
+	.login-page__intro {
+		display: flex;
+width: 100%;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+align-self: stretch;
+	}
+
+	.login-page__intro h1 {
+		width: 100%;
+		color: var(--brand-ink, #1F1B18);
+
+/* heading / mobile / h1 */
+font-family: Anton;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 48px */
+letter-spacing: 0.4px;
+	}
+
+	.login-page__intro p {
+		color: var(--brand-muted, #5A564D);
+
+/* body / large */
+font-family: "Host Grotesk";
+width: 100%;
+box-sizing: border-box;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 155%; /* 31px */
+	}
+
+	.login-form {
+		width: 100%;
+		display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 28px;
+align-self: stretch;
+	}
+
+	.login-form_g {
+		display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+align-self: stretch;
+	}
+
+	.login-form__field {
+		display: flex;
+width: 100%;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+align-self: stretch;
+	}
+
+	.login-form__field label {
+		color: var(--brand-ink, #1F1B18);
+
+/* body / small */
+font-family: "Host Grotesk";
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 18px */
+letter-spacing: 1.2px;
+text-transform: uppercase;
+	}
+
+	.login-form__field .lgn {
+		display: flex !important;
+box-sizing: border-box;
+width: 100%;
+padding: 16px !important;
+align-items: flex-start;
+gap: 8px !important;
+align-self: stretch;
+border-radius: var(--radius-s, 8px);
+border: 1px solid var(--brand-hairline, #D9D3C4) !important;
+background: var(--brand-panel, #F0ECE0) !important;
+color: var(--brand-muted, #5A564D) !important;
+
+/* body / regular */
+font-family: "Host Grotesk" !important;
+font-size: 16px !important;
+font-style: normal !important;
+font-weight: 400 !important;
+line-height: 155% !important; /* 24.8px */
+	}
+
+	.login-form__password lgn {
+		padding-right: 38px;
+	}
+
+	.login-form__toggle,
+	.login-form__toggle img {
+		width: 18px;
+		height: 18px;
+	}
+
+	.reset-pswd-para{
+		color: var(--brand-muted, #5A564D);
+
+/* body / regular */
+font-family: "Host Grotesk";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 155%; /* 24.8px */
+margin: 0px;
+	}
+
+	.login-form__actions {
+		display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+align-self: stretch;
+	}
+
+	.login-form__actions a {
+		order: 1;
+		display: flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+align-self: stretch;
+border-radius: var(--radius-full, 999px);
+background: var(--brand-ink, #1F1B18);
+color: var(--brand-bone, #FCFAF3);
+
+/* button / regular */
+font-family: "Host Grotesk";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 24px */
+	}
+
+	.login-form__button {
+		order: 0;
+		display: flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+align-self: stretch;
+border-radius: var(--radius-full, 999px);
+border: 1px solid var(--brand-ink, #1F1B18);
+background: var(--brand-bone, #FCFAF3);
+color: var(--brand-ink, #1F1B18);
+
+/* button / regular */
+font-family: "Host Grotesk";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 24px */
+	}
+
+	.login-form__forgot {
+		color: var(--brand-ink, #1F1B18);
+
+/* body / regular */
+font-family: "Host Grotesk";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 155%; /* 24.8px */
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: auto;
+text-decoration-thickness: auto;
+text-underline-offset: auto;
+text-underline-position: from-font;
+	}
+
+	.reset-password-para{
+		color: var(--brand-muted, #5A564D);
+
+/* body / regular */
+font-family: "Host Grotesk";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 155%; /* 24.8px */
+margin: 0px;
+
+	}
+
+/*signup page css*/
+.reset-page{
+	width: 100%;
+	margin-top: 70px;
+	display: flex;
+padding: 0 24px 40px 24px;
+flex-direction: column;
+align-items: flex-start;
+align-self: stretch;
+}
+
+.reset-page_inner{
+	display: flex;
+flex-direction: column;
+align-items: flex-start;
+align-self: stretch;
+gap:0px !important;
+}
+
+.reset-page__form-wrap{
+	order: 1;
+	display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 28px;
+align-self: stretch;
+}
+
+.reset-page__intro{
+	display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+}
+
+.reset-page__intro h1 {
+	color: var(--brand-ink, #1F1B18);
+
+/* heading / mobile / h1 */
+font-family: Anton;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 48px */
+letter-spacing: 0.4px;
+margin: 0px;
+align-self: stretch;
+}
+
+.reset-page__intro p {
+	color: var(--brand-muted, #5A564D);
+
+/* body / large */
+font-family: "Host Grotesk";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 155%; /* 31px */
+margin: 0px;
+}
+
+.reset-form_g{
+	display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+align-self: stretch;
+width: 100%;
+}
+
+.pass-row {
+	display: contents;
+}
+
+.reset-form__field{
+	display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+align-self: stretch;
+width: 100%;
+}
+.reset-form__field label {
+	color: var(--brand-ink, #1F1B18);
+
+/* body / small */
+font-family: "Host Grotesk";
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 18px */
+letter-spacing: 1.2px;
+text-transform: uppercase;
+}
+
+.reset-form__field .lgn-reset,
+.reset-form__field .reset-btn {
+	display: flex;
+padding: 16px;
+align-items: flex-start;
+gap: 8px;
+align-self: stretch;
+border-radius: var(--radius-s, 8px);
+border: 1px solid var(--brand-hairline, #D9D3C4);
+background: var(--brand-panel, #F0ECE0);
+color: var(--brand-muted, #5A564D);
+
+/* body / regular */
+font-family: "Host Grotesk";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 155%; /* 24.8px */
+}
+
+.reset-form {
+	display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 28px;
+align-self: stretch;
+}
+
+.t-btn {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 1fr !important;
+	gap: 10px;
+}
+
+.reset-char{
+	color: var(--brand-muted, #5A564D);
+
+/* body / regular */
+font-family: "Host Grotesk";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 155%; /* 24.8px */
+align-self: stretch;
+}
+
+.form-check{
+	display: flex !important;
+align-items: center !important;
+gap: 16px !important;
+align-self: stretch;
+
+}
+
+.form-check input{
+	width: 24px !important;
+height: 24px !important;
+border-radius: var(--radius-xs, 4px);
+border: 1px solid var(--brand-ink, #1F1B18) !important;
+background: var(--brand-bone, #FCFAF3) !important;
+}
+
+.form-check label{
+	color: var(--brand-ink, #1F1B18);
+
+/* body / regular */
+font-family: "Host Grotesk" !important;
+font-size: 16px !important;
+font-style: normal !important;
+font-weight: 400 !important;
+line-height: 155% !important; /* 24.8px */
+flex: 1 0 0;
+}
+
+.captcha {
+	display: flex;
+width: 304px;
+padding: 16px;
+align-items: center;
+gap: 16px;
+border-radius: var(--radius-xs, 4px);
+border: 1px solid var(--brand-hairline, #D9D3C4);
+background: var(--base-white, #FFF);
+
+}
+
+.captcha input{
+	width: 24px;
+height: 24px;
+flex-shrink: 0;
+border: 1px solid var(--brand-muted, #5A564D);
+background: var(--brand-bone, #FCFAF3);
+}
+
+.captcha label{
+	color: var(--brand-ink, #1F1B18);
+
+/* body / regular */
+font-family: "Host Grotesk";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 155%; /* 24.8px */
+}
+
+.cap {
+	margin-left: auto;
+	text-align: center;
+}
+
+.cap h3 {
+	color: var(--brand-blue, #1E9BFF);
+
+/* body / regular */
+font-family: "Host Grotesk";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 155%; /* 24.8px */
+}
+
+.captcha small{
+	color: var(--brand-muted, #5A564D);
+
+/* body / small */
+font-family: "Host Grotesk";
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 18px */
+letter-spacing: 1.2px;
+text-transform: uppercase;
+}
+
+.reset-btn {
+	box-sizing: border-box;
+	width: 100%;
+	min-height: 36px;
+	padding: 8px 36px 8px 12px;
+	font-size: 12px;
+}
+
+
+
+
+.reset-form__actions {
+	display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+align-self: stretch;
+}
+
+.reset-form__button {
+	flex: none;
+	width: 100%;
+	min-height: 38px;
+	font-size: 14px;
+}
+
+.reset-form__button a{
+	display: flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+align-self: stretch;
+border-radius: var(--radius-full, 999px);
+background: var(--brand-ink, #1F1B18);
+color: var(--brand-bone, #FCFAF3);
+
+/* button / regular */
+font-family: "Host Grotesk";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 24px */
+}
+
+.reset-form__button button{
+	display: flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+align-self: stretch;
+border-radius: var(--radius-full, 999px);
+border: 1px solid var(--brand-ink, #1F1B18);
+background: var(--brand-bone, #FCFAF3);
+color: var(--brand-ink, #1F1B18);
+
+/* button / regular */
+font-family: "Host Grotesk";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 24px */
+}
+
+.reset-form__button--primary {
+	order: 0;
+}
+
+.reset-form__button--secondary {
+	order: 1;
+}
+
+.reset-page__artwork {
+	width: 327px;
+height: 327px;
+	order: 0;
+	flex: none;
+}
+
+
+
+/*.reset-page__artwork img {
+	width: 100%;
+	max-width: 327px;
+	max-height: 327px;
+}
+
+.reset-link-modal__header h2 {
+	font-size: 24px;
+}
+
+.reset-link-modal__body p {
+	font-size: 16px;
+}*/
+
+
+
+
+/*signup css ends*/
+
+/*Pop up modal*/
+.second-modal .modal-dialog{
+	width: calc(100% - 48px);
+	max-width: 640px;
+	margin: 0 auto;
+}
+
+.second-modal .modal-content{
+	display: flex;
+	width: 100%;
+	box-sizing: border-box;
+padding: 24px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+border-radius: var(--radius-s, 8px);
+background: var(--brand-white, #FFF);
+}
+
+.reset-link-modal__header h2{
+	color: var(--brand-ink, #1F1B18);
+
+/* heading / mobile / h3 */
+font-family: Anton;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 31.2px */
+letter-spacing: 0.4px;
+align-self: stretch;
+}
+
+.reset-link-modal__body p{
+	color: var(--brand-muted, #5A564D);
+
+/* body / large */
+font-family: "Host Grotesk";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 155%; /* 31px */
+align-self: stretch;
+}
+
+.reset-link-modal__footer button{
+	display: flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: var(--radius-full, 999px);
+background: var(--brand-ink, #1F1B18);
+color: var(--brand-bone, #FCFAF3);
+
+/* button / regular */
+font-family: "Host Grotesk";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 24px */
+margin: 0px;
+}
+	}
