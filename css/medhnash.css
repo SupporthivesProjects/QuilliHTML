@@ -1,0 +1,1155 @@
+.cart-page {
+    padding-top: 135px;
+    background: #FCFAF3;
+}
+
+.cart-container {
+    padding: 104px 240px;
+}
+
+.cart-layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 64px;
+    align-self: stretch;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.cart-items {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    flex: 1 0 0;
+}
+
+.cart-title {
+    font-family: Anton;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    padding-bottom: 32px;
+    margin: 0px;
+    color: #1F1B18;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0 24px 0;
+    border-bottom: 1px solid #d5d0c5;
+    gap: 32px;
+}
+
+.cart-item-content{
+    width: 100%;
+}
+
+.cart-item-content h2 {
+    font-family: Anton;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    color: #1F1B18;
+}
+
+.cart-item-content p {
+    font-family: "Host Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+    color: #5A564D;
+}
+
+.cart-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.cart-tags button {
+    padding: 8px 14px;
+    border: 1px solid #D9D3C4;
+    border-radius: 999px;
+    font-size: 7px;
+    line-height: 1;
+    color: #5f5a51;
+    background: #F0ECE0;
+    cursor: pointer;
+}
+
+.cart-price {
+    font-family: Anton;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    color: #1F1B18;
+}
+
+.cart-remove {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.cart-remove img {
+    width: 16px;
+    height: 16px;
+    display: block;
+}
+
+.cart-summary-column {
+    padding-left: 0;
+}
+
+.cart-summary {
+    padding: 40px;
+    background: #F0ECE0;
+    border-radius: 8px;
+    border: 1px solid #D9D3C4;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 450px;
+}
+
+.cart-summary h3 {
+    width: 100%;
+    font-family: Anton;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    color: #1F1B18;
+    margin: 0px;
+}
+
+.summary-all{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.summary-product{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.summary-line{
+    width: 100%;
+    border-bottom: 1px solid #D9D3C4;
+}
+
+.summary-product-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary-product-header strong{
+    font-family: Anton;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    color: #1F1B18;
+}
+.summary-product-header span {
+    font-family: "Host Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    color: #1F1B18;
+}
+
+.summary-product p {
+    font-family: "Host Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    color: #5A564D;
+    margin: 0px;
+}
+
+.summary-details {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.summary-details-row {
+    display: flex;
+    gap: 16px;
+}
+
+.summary-details span {
+    width: 100%;
+    font-size: 7px;
+    color: #5f5a51;
+}
+
+.summary-details b {
+    font-family: "Host Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    color: #FF1F0E;
+}
+
+.summary-details-row p {
+    font-family: "Host Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+    color: #1F1B18;
+}
+
+.summary-total {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.summary-total div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary-total span,
+.summary-total strong {
+    font-family: "Host Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    color: #1F1B18;
+}
+
+.button{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.checkout-btn,
+.shopping-btn {
+    width: 100%;
+    padding: 16px 32px;
+    border-radius: 999px;
+    font-family: "Host Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    color: #1F1B18;
+    background-color: #FCFAF3;
+    border: 1px solid #1F1B18;
+}
+
+.checkout-btn {
+    color: #FCFAF3;
+    background: #1F1B18;
+}
+
+@media (max-width: 991px) {
+    .cart-container {
+        padding: 40px 0px;
+    }
+
+    .cart-layout {
+        flex-direction: column;
+        gap: 48px;
+        padding: 0px 24px;
+    }
+
+    .cart-title {
+        font-size: 40px;
+    }
+
+    .cart-summary-column{
+        width: 100%;
+        padding: 0px;
+    }
+
+    .cart-summary {
+        padding: 28px 24px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .cart-title {
+        font-size: 40px;
+    }
+
+    .cart-item-content h2 {
+        font-size: 24px;
+    }
+
+    .cart-item-content p {
+        font-size: 16px;
+    }
+
+    .cart-price {
+        font-size: 24px;
+    }
+
+    .cart-item {
+    gap: 12px;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 575px) {
+    .cart-page {
+        padding-top: 90px;
+    }
+
+    .cart-layout {
+        gap: 32px;
+    }
+
+    .cart-tags {
+        gap: 6px;
+    }
+
+    .cart-tags button {
+        padding: 6px 10px;
+    }
+
+    .cart-price {
+        font-size: 20px;
+    }
+
+    .cart-remove img {
+        width: 12px;
+        height: 12px;
+    }
+
+}
+
+.checkout-page {
+    padding-top: 135px;
+    background: #FCFAF3;
+}
+
+.checkout-container {
+    display: flex;
+    padding: 0 240px 104px 240px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    align-self: stretch;
+}
+
+.checkout-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.checkout-hero img {
+    width: 448px;
+    height: 240px;
+    object-fit: contain;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.text h1 {
+    font-family: Anton;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 120%;
+    color: #1F1B18;
+    margin-bottom: 16px;
+}
+
+.text p {
+    font-family: "Host Grotesk";
+    font-size: 16px;
+    line-height: 150%;
+    color: #5A564D;
+    margin: 0;
+}
+
+.checkout-content {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.checkout-card {
+    background: #F0ECE0;
+    border: 1px solid #D9D3C4;
+    border-radius: 8px;
+    display: flex;
+    padding: 28px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 100%;
+}
+
+.checkout-section-title {
+    font-family: "Host Grotesk";
+    font-size: 12px;
+    font-weight: 600;
+    color: #FF1F0E;
+    width: 100%;
+}
+
+.checkout-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+.checkout-form-row {
+    display: flex;
+    gap: 24px;
+}
+
+.checkout-field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.checkout-field label {
+    font-family: "Host Grotesk";
+    font-size: 12px;
+    font-weight: 600;
+    color: #5A564D;
+}
+
+.checkout-field input,
+.checkout-field select {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #D9D3C4;
+    border-radius: 8px;
+    background: #FFF;
+    font-family: "Host Grotesk";
+    font-size: 16px;
+    font-weight: 600;
+    color: #5A564D;
+    outline: none;
+}
+
+.checkout-order {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding-top: 4px;
+}
+
+.checkout-product {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.line{
+    width: 100%;
+    border-bottom: #D9D3C4;
+}
+
+.checkout-product-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout-product-header strong {
+    font-family: Anton;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 130%;
+    color: #1F1B18;
+    width: 100%;
+}
+
+.checkout-product-header span {
+    font-family: "Host Grotesk";
+    font-size: 16px;
+    font-weight: 600;
+    color: #1F1B18;
+}
+
+.checkout-product p {
+    font-family: "Host Grotesk";
+    font-size: 12px;
+    font-weight: 600;
+    color: #5A564D;
+    margin: 0;
+}
+
+.checkout-details {
+    display: flex;
+    gap: 16px;
+}
+
+.checkout-details div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.checkout-details b {
+    font-family: "Host Grotesk";
+    font-size: 12px;
+    font-weight: 600;
+    color: #FF1F0E;
+}
+
+.checkout-details span {
+    font-family: "Host Grotesk";
+    font-size: 16px;
+    color: #1F1B18;
+}
+
+.promo-code {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.promo-code label {
+    font-family: "Host Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    color: #1F1B18;
+
+}
+
+.promo-code div {
+    display: flex;
+    gap: 16px;
+}
+
+.promo-code input {
+    padding: 16px;
+    border: 1px solid #D9D3C4;
+    border-radius: 8px;
+    background: #FFF;
+    font-family: "Host Grotesk";
+    font-size: 16px;
+    font-weight: 400;
+    color: #5A564D;
+    width: 100%;
+}
+
+.promo-code button {
+    padding: 16px 32px;
+    border: 0;
+    border-radius: 999px;
+    background: #1F1B18;
+    color: #FCFAF3;
+    font-family: "Host Grotesk";
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.checkout-total {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.checkout-total div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout-total span {
+    font-family: "Host Grotesk";
+    font-size: 16px;
+    color: #1F1B18;
+    font-weight: 400;
+}
+
+.checkout-total strong {
+    font-family: "Host Grotesk";
+    font-size: 16px;
+    color: #1F1B18;
+    font-weight: 600;
+}
+
+.checkout-note-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.checkout-note {
+    font-family: "Host Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    color: #5A564D;
+    margin: 0px;
+}
+
+.checkout-payment-icons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-right: 24px;
+}
+
+.checkout-payment-icons img {
+    width: 46px;
+    height: 32px;
+}
+
+
+.checkout-agreements {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.checkout-agreements div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-family: "Host Grotesk";
+    font-size: 16px;
+    color: #1F1B18;
+    font-weight: 400;
+}
+
+.checkout-agreements input {
+    margin: 0;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    border: 1px solid #1F1B18;
+    background-color: #FCFAF3;
+}
+
+.checkout-agreements img {
+    width: 304px;
+}
+
+.checkout-actions {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+}
+
+.checkout-back-btn,
+.checkout-payment-btn {
+    width: 100%;
+    padding: 16px 32px;
+    border-radius: 999px;
+    font-family: "Host Grotesk";
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.checkout-back-btn {
+    background: #FCFAF3;
+    border: 1px solid #1F1B18;
+    color: #1F1B18;
+}
+
+.checkout-payment-btn {
+    background: #1F1B18;
+    border: 1px solid #1F1B18;
+    color: #FCFAF3;
+}
+
+@media (max-width: 991px) {
+    .checkout-container {
+        padding: 0 40px 80px;
+    }
+
+    .checkout-content {
+        width: 100%;
+        gap: 32px;
+    }
+
+    .checkout-hero img {
+        width: 360px;
+        height: 200px;
+    }
+
+    .text h1 {
+        font-size: 48px;
+    }
+
+    .checkout-card {
+        padding: 24px;
+    }
+
+    .checkout-form-row {
+        gap: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .checkout-container {
+        padding: 0 24px 60px;
+        gap: 32px;
+    }
+
+    .checkout-hero img {
+        width: 300px;
+        height: 170px;
+    }
+
+    .text h1 {
+        font-size: 40px;
+        margin-bottom: 16px;
+    }
+
+    .text p {
+        font-size: 16px;
+    }
+
+    .checkout-card {
+        padding: 20px;
+    }
+
+    .checkout-form-row {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .checkout-details {
+        flex-wrap: wrap;
+    }
+
+    .checkout-product-header strong {
+        font-size: 24px;
+    }
+
+    .checkout-product-header span {
+        font-size: 16px;
+    }
+
+    .checkout-details {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .checkout-details div {
+        width: calc(50% - 8px);
+    }
+
+    .checkout-note-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .checkout-payment-icons {
+        padding-right: 0;
+    }
+
+    .checkout-agreements {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .checkout-actions {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .checkout-payment-btn{
+        order: 1;
+    }
+
+    .checkout-back-btn{
+        order: 2;
+    }
+}
+
+@media (max-width: 575px) {
+    .checkout-page {
+        padding-top: 90px;
+    }
+
+    .checkout-container {
+        padding: 0 16px 48px;
+        gap: 24px;
+    }
+
+    .checkout-hero img {
+        height: 175px;
+    }
+
+    .promo-code div {
+        flex-direction: column;
+    }
+
+    .promo-code button {
+        width: 100%;
+    }
+
+    .checkout-payment-btn{
+        order: 1;
+    }
+
+    .checkout-back-btn{
+        order: 2;
+    }
+}
+
+.payment-success-page {
+    padding-top: 135px;
+    background: #FCFAF3;
+}
+
+.payment-success-content {
+    display: flex;
+    width: 100%;
+    padding: 104px 120px 104px 240px;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 40px;
+}
+
+.payment-success-details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.payment-success-details h1 {
+    font-family: Anton;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 120%;
+    color: #1F1B18;
+    margin-bottom: 24px;
+}
+
+.payment-success-message {
+    font-family: "Host Grotesk";
+    font-size: 20px;
+    line-height: 150%;
+    color: #5A564D;
+    margin-bottom: 0px;
+}
+
+.payment-success-summary {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-family: "Host Grotesk";
+    font-size: 16px;
+    color: #1F1B18;
+
+}
+
+.payment-success-text {
+    color: #5A564D;
+}
+
+.payment-success-summary div {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.payment-success-summary strong {
+    color: #1F1B18;
+}
+
+.payment-success-actions {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+}
+
+.download-invoice-btn,
+.view-order-btn {
+    width: 100%;
+    padding: 16px 32px;
+    border-radius: 999px;
+    font-family: "Host Grotesk";
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.download-invoice-btn {
+    background: #FCFAF3;
+    border: 1px solid #1F1B18;
+    color: #1F1B18;
+}
+
+.view-order-btn {
+    background: #1F1B18;
+    border: 1px solid #1F1B18;
+    color: #FCFAF3;
+}
+
+.payment-success-image {
+    width: 100%;
+}
+
+.payment-success-image img {
+    width: 100%;
+    height: 640px;
+}
+
+@media (max-width: 991px) {
+    .payment-success-content {
+        padding: 80px 40px;
+        flex-direction: column-reverse;
+        gap: 32px;
+    }
+
+    .payment-success-details,
+    .payment-success-image {
+        width: 100%;
+    }
+
+    .payment-success-image img {
+        height: 400px;
+        object-fit: contain;
+    }
+
+    .payment-success-details h1 {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 767px) {
+    .payment-success-content {
+        padding: 0px 24px 40px 24px;
+        gap: 0px;
+    }
+
+    .payment-success-details {
+        gap: 28px;
+    }
+
+    .payment-success-details h1 {
+        font-size: 40px;
+        margin-bottom: 12px;
+    }
+
+    .payment-success-message {
+        font-size: 20px;
+    }
+
+    .payment-success-summary {
+        font-size: 16px;
+        gap: 16px;
+    }
+
+    .payment-success-actions {
+        gap: 16px;
+        flex-direction: column-reverse;
+    }
+
+    .payment-success-image img {
+        height: 327px;
+    }
+}
+
+@media (max-width: 575px) {
+    .payment-success-page {
+        padding-top: 90px;
+    }  
+}
+
+.payment-failed-page {
+    padding-top: 135px;
+    background: #FCFAF3;
+}
+
+.payment-failed-content {
+    display: flex;
+    width: 100%;
+    padding: 104px 120px 104px 240px;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.payment-failed-details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.payment-failed-details h1 {
+    font-family: Anton;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 120%;
+    color: #1F1B18;
+    margin-bottom: 24px;
+}
+
+.payment-failed-message {
+    font-family: "Host Grotesk";
+    font-size: 20px;
+    line-height: 150%;
+    color: #5A564D;
+    margin-bottom: 0px;
+}
+
+.payment-failed-summary {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-family: "Host Grotesk";
+    font-size: 16px;
+    color: #1F1B18;
+}
+
+.payment-failed-text {
+    color: #5A564D;
+}
+
+.payment-failed-summary div {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.payment-failed-summary strong {
+    color: #1F1B18;
+}
+
+.payment-failed-actions {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+}
+
+.back-to-cart-btn,
+.return-checkout-btn {
+    width: 100%;
+    padding: 16px 32px;
+    border-radius: 999px;
+    font-family: "Host Grotesk";
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.back-to-cart-btn {
+    background: #FCFAF3;
+    border: 1px solid #1F1B18;
+    color: #1F1B18;
+}
+
+.return-checkout-btn {
+    background: #1F1B18;
+    border: 1px solid #1F1B18;
+    color: #FCFAF3;
+}
+
+.payment-failed-image {
+    width: 100%;
+}
+
+.payment-failed-image img {
+    width: 100%;
+    height: 640px;
+}
+
+@media (max-width: 991px) {
+    .payment-failed-content {
+        padding: 80px 40px;
+        flex-direction: column-reverse;
+        gap: 32px;
+    }
+
+    .payment-failed-details,
+    .payment-failed-image {
+        width: 100%;
+    }
+
+    .payment-failed-image img {
+        height: 400px;
+        object-fit: contain;
+    }
+
+    .payment-failed-details h1 {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 767px) {
+    .payment-failed-content {
+        padding: 0px 24px 40px 24px;
+        gap: 0px;
+    }
+
+    .payment-failed-details {
+        gap: 28px;
+    }
+
+    .payment-failed-details h1 {
+        font-size: 40px;
+        margin-bottom: 12px;
+    }
+
+    .payment-failed-message {
+        font-size: 20px;
+    }
+
+    .payment-failed-summary {
+        font-size: 16px;
+        gap: 16px;
+    }
+
+    .payment-failed-actions {
+        gap: 16px;
+        flex-direction: column-reverse;
+    }
+
+    .payment-failed-image img {
+        height: 327px;
+    }
+}
+
+@media (max-width: 575px) {
+    .payment-failed-page {
+        padding-top: 90px;
+    }
+}
