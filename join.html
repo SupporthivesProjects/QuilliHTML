@@ -396,40 +396,52 @@
     <script>
         AOS.init();
     </script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-        
-            const dropdown = document.querySelector(".dropdown_t");
-            const button = dropdown.querySelector(".dropdown_btn_t");
-            const text = dropdown.querySelector(".dropdown_text_t");
-            const options = dropdown.querySelectorAll(".dropdown_option_t");
-        
-            // Open / close dropdown
-            button.addEventListener("click", function () {
-                dropdown.classList.toggle("active");
-            });
-        
-            // Select option
-            options.forEach(option => {
-                option.addEventListener("click", function () {
-        
-                    text.textContent = this.textContent;
-        
-                    dropdown.classList.remove("active");
-                });
-            });
-        
-            // Close when clicking outside
-            document.addEventListener("click", function (event) {
-        
-                if (!dropdown.contains(event.target)) {
-                    dropdown.classList.remove("active");
-                }
-        
-            });
-        
-        });
-        </script>
+  
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+    
+        const dropdown = document.querySelector(".dropdown_t");
+        const button = dropdown.querySelector(".dropdown_btn_t");
+        const text = dropdown.querySelector(".dropdown_text_t");
+        const options = dropdown.querySelectorAll(".dropdown_option_t");
+    
+        // Open / close dropdown
+        button.addEventListener("click", function () {
+            dropdown.classList.toggle("active");
+        });
+    
+        // Select option
+        options.forEach(option => {
+            option.addEventListener("click", function () {
+    
+                text.textContent = this.textContent;
+    
+                dropdown.classList.remove("active");
+            });
+        });
+    
+        // Close when clicking outside
+        document.addEventListener("click", function (event) {
+    
+            if (!dropdown.contains(event.target)) {
+                dropdown.classList.remove("active");
+            }
+    
+        });
+    
+    });
+    </script>
