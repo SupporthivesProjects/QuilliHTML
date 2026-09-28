@@ -2,8 +2,8 @@
 
 <!-- Service S1 Start -->
 <section class="cw_s1">
-    <img src="./img/cw_s1img.png" class="w-100 mobile_none">
-    <img src="./img/cw_s1imgmob.png" class="w-100 desktop_none">
+    <img src="./img/sm_s1img.png" class="w-100 mobile_none">
+    <img src="./img/sm_s1imgmob.png" class="w-100 desktop_none">
 </section>
 <!-- Service S1 End -->
 
@@ -11,14 +11,14 @@
 <section class="cw_s2">
     <div class="cw_c2 container">
         <div class="cw_s2left">
-            <label class="cw_s2label">YOUR STORY, TOLD PROPERLY.</label>
-            <h1 class="cw_s2title">Creative writing</h1>
-            <p class="cw_s2subtitle">Bespoke work, e-books, white papers, blogs, technical writing and reviews, priced line by line.</p>
+            <label class="cw_s2label">SHORT WORDS, LONG REACH.</label>
+            <h1 class="cw_s2title">Social media</h1>
+            <p class="cw_s2subtitle">Platform-ready posts, blogs and newsletters, written in your voice.</p>
         </div>
         <div class="cw_s2right">
             <div class="cw_s2rightcard">
                 <h5 class="cw_s2rightcardtitle">FORMATS</h5>
-                <p class="cw_s2rightcardsubtitle">Six formats, from a bespoke commission to a short review</p>
+                <p class="cw_s2rightcardsubtitle">Four formats, from a bespoke commission to a short review</p>
             </div>
             <div class="cw_s2rightcard">
                 <h5 class="cw_s2rightcardtitle">PRICING</h5>
@@ -36,9 +36,10 @@
 <!-- Service S3 Start -->
 <section class="cw_s3">
     <div class="cw_c3 container">
-        <h2 class="cw_s3title">About creative writing</h2>
-        <p class="cw_s3subtitle">Creative writing covers the pieces people choose to read rather than skim. An e-book that has to hold a reader for an hour. A white paper that has to convince a specialist. A blog that earns its place in a search result. A technical guide someone reads while trying to get something done. The formats are different, but the job is the same: take what you know and put it in an order that makes sense to someone who does not know it yet.<br><br>
-        Every piece is written by someone with real ground in the subject, working from the brief you set. You choose the word count, the quality tier and the turnaround, and the price moves with them. Standard turnaround is 5 to 7 days and included. Express is 2 to 3 days and adds 25%. Images are priced per image and arrive alongside the copy, sized and licensed for the piece. Nothing renews and nothing is on subscription. You commission a piece, you get the piece.</p>
+        <h2 class="cw_s3title">About social media</h2>
+        <p class="cw_s3subtitle">Social media is where a brand sounds most like itself, or least. The same voice has to work in a caption, a newsletter and a longer post, on channels that reward different things. Writing for it is less about volume than about consistency. Someone who sees four posts in a month should recognise the fifth.<br><br>
+        Pick the format, set the word count, then choose the quality tier and the turnaround. A writer works to your brief and matches the voice you already use. Standard turnaround is 5 to 7 days and included. Express is 2 to 3 days and adds 25%. Images are priced per image and come with the copy, sized for where it is going. There are no retainers and no subscriptions, so you commission each piece on its own.
+</p>
     </div>
 </section>
 <!-- Service S3 End -->
@@ -54,8 +55,8 @@
         <div class="content_cards">
             <!-- Card 1 -->
             <div class="content_card">
-                <h3 class="cw_s4cardtitle">Bespoke creative writing</h3>
-                <p class="cw_s4cardsubtitle">Writing for an idea that needs its own format. Describe the job and choose the scope.</p>
+                <h3 class="cw_s4cardtitle">Social media content</h3>
+                <p class="cw_s4cardsubtitle">Posts and captions with a recognisable voice, ready for the channel you choose.</p>
                 <div class="cw_s4carddetails">
                     <div class="cw_s4carddetail">
                         <span>TURNAROUND</span>
@@ -71,59 +72,11 @@
                     </div>
                 </div>
                 <div class="cw_s4cardbottom">
-                    <span>From $60</span>
+                    <span>From $40</span>
                     <button>Configure</button>
                 </div>
             </div>
             <!-- Card 2 -->
-            <div class="content_card">
-                <h3 class="cw_s4cardtitle">E-book writing</h3>
-                <p class="cw_s4cardsubtitle">A longer story with clear chapters, a consistent voice and room for the detail.</p>
-                <div class="cw_s4carddetails">
-                    <div class="cw_s4carddetail">
-                        <span>TURNAROUND</span>
-                        <strong>5 TO 7 DAYS STANDARD</strong>
-                    </div>
-                    <div class="cw_s4carddetail">
-                        <span>QUALITY</span>
-                        <strong>STANDARD, PREMIUM, EXPERT</strong>
-                    </div>
-                    <div class="cw_s4carddetail">
-                        <span>IMAGES</span>
-                        <strong>PRICED PER IMAGE</strong>
-                    </div>
-                </div>
-                <div class="cw_s4cardbottom">
-                    <span>From $100</span>
-                    <button>Configure</button>
-                </div>
-            </div>
-            <!-- Card3 -->
-            <div class="content_card">
-                <h3 class="cw_s4cardtitle">White papers</h3>
-                <p class="cw_s4cardsubtitle">A clear argument with the structure and depth a specialist reader expects.</p>
-                <div class="cw_s4carddetails">
-                    <div class="cw_s4carddetail">
-                        <span>TURNAROUND</span>
-                        <strong>5 TO 7 DAYS STANDARD</strong>
-                    </div>
-                    <div class="cw_s4carddetail">
-                        <span>QUALITY</span>
-                        <strong>STANDARD, PREMIUM, EXPERT</strong>
-                    </div>
-                    <div class="cw_s4carddetail">
-                        <span>IMAGES</span>
-                        <strong>PRICED PER IMAGE</strong>
-                    </div>
-                </div>
-                <div class="cw_s4cardbottom">
-                    <span>From $90</span>
-                    <button>Configure</button>
-                </div>
-            </div>
-        </div>
-        <div class="content_cards">
-            <!-- Card 4 -->
             <div class="content_card">
                 <h3 class="cw_s4cardtitle">Blog writing</h3>
                 <p class="cw_s4cardsubtitle">A useful read with a clear subject, a natural voice and a reason to reach the end.</p>
@@ -146,10 +99,10 @@
                     <button>Configure</button>
                 </div>
             </div>
-            <!-- Card 5 -->
+            <!-- Card3 -->
             <div class="content_card">
-                <h3 class="cw_s4cardtitle">Technical writing</h3>
-                <p class="cw_s4cardsubtitle">Guides, documentation and explainers that make complex information easier to use.</p>
+                <h3 class="cw_s4cardtitle">Emails & newsletters</h3>
+                <p class="cw_s4cardsubtitle">Subject line, body and call to action that belong to the same conversation.</p>
                 <div class="cw_s4carddetails">
                     <div class="cw_s4carddetail">
                         <span>TURNAROUND</span>
@@ -165,14 +118,16 @@
                     </div>
                 </div>
                 <div class="cw_s4cardbottom">
-                    <span>From $60</span>
+                    <span>From $40</span>
                     <button>Configure</button>
                 </div>
             </div>
-            <!-- Card 6 -->
+        </div>
+        <div class="content_cards">
+            <!-- Card 4 -->
             <div class="content_card">
-                <h3 class="cw_s4cardtitle">Review writing</h3>
-                <p class="cw_s4cardsubtitle">Specific, balanced writing that makes the useful details easy to compare.</p>
+                <h3 class="cw_s4cardtitle">Website content</h3>
+                <p class="cw_s4cardsubtitle">Page copy that explains the offer, answers the reader and points to the next step.</p>
                 <div class="cw_s4carddetails">
                     <div class="cw_s4carddetail">
                         <span>TURNAROUND</span>
@@ -188,7 +143,7 @@
                     </div>
                 </div>
                 <div class="cw_s4cardbottom">
-                    <span>From $25</span>
+                    <span>From $70</span>
                     <button>Configure</button>
                 </div>
             </div>
